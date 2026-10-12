@@ -72,6 +72,7 @@ ROW_NUMBER() OVER (
 ```
 
 ### Example: Email Validation
+(AI assisted query as I was unable to come up with a solution)
 
 ```sql
 IF(customer_email IS NULL,
@@ -123,21 +124,11 @@ Rather than deleting questionable rows, the pipeline labels them in `qc_flag` so
 ```
 .
 ├── README.md
-├── sql/
-│   └── Datacleaning.sql                  # Profiling queries + final cleaning pipeline
-└── data/
-    ├── subscriptions_raw.csv             # Raw input data
-    └── subscriptions_clean_project.csv   # Cleaned output exported from BigQuery
+├── Datacleaning.sql                  # Profiling queries + final cleaning pipeline
+├── subscriptions_raw.csv             # Raw input data
+├── subscriptions_clean_project.csv   # Cleaned output exported from BigQuery
 ```
 
-## How to Run
-
-1. Create a dataset in BigQuery (this project uses `Datacleaning`).
-2. Upload `data/subscriptions_raw.csv` as a table named `subscriptions_raw`.
-3. Replace the project ID in `sql/Datacleaning.sql` (`sql-portfolio-510408`) with your own.
-4. Run the profiling queries to explore the data, then run the **Final cleaning pipeline** section to create `subscriptions_clean`.
-
----
 
 ## Assumptions and Limitations
 
@@ -147,7 +138,4 @@ Rather than deleting questionable rows, the pipeline labels them in `qc_flag` so
 - The email check validates format only. It cannot detect typos in otherwise valid addresses (for example `gmial.com`) or confirm that a mailbox exists.
 - Flagged rows are kept in the table so that downstream users can decide how to treat them.
 
-## Possible Next Steps
 
-- Build a dashboard (for example in Looker Studio) on the clean table for churn and revenue by plan and country.
-- Add a summary query that reports the number of flagged rows by `qc_flag` type.
