@@ -157,7 +157,13 @@ SELECT
        'Basic plan with different pricing, ', ''),
 
     IF(LOWER(plan) LIKE '%premium%' AND monthly_price != 19.99,
-       'Premium plan with different pricing, ', '')
+       'Premium plan with different pricing, ', ''),
+    IF(customer_email IS NULL,
+   'Missing email, ', ''),
+
+    IF(customer_email IS NOT NULL
+   AND NOT REGEXP_CONTAINS(customer_email, r'^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$'),
+   'Invalid email format, ', '')
   ) AS qc_flag
 
 FROM `sql-portfolio-510408.Datacleaning.subscriptions_raw`
@@ -258,7 +264,13 @@ SELECT *,
        'Basic plan with different pricing, ', ''),
 
     IF(LOWER(plan) LIKE '%premium%' AND monthly_price != 19.99,
-       'Premium plan with different pricing, ', '')
+       'Premium plan with different pricing, ', ''),
+    IF(customer_email IS NULL,
+   'Missing email, ', ''),
+
+    IF(customer_email IS NOT NULL
+   AND NOT REGEXP_CONTAINS(customer_email, r'^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$'),
+   'Invalid email format, ', '')
   ) AS qc_flag
 
 FROM price_update
