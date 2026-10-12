@@ -1,4 +1,4 @@
-# Subscription Data Cleaning with SQL (BigQuery)
+# Subscription Data Cleaning Pipeline with SQL (BigQuery)
 
 A data cleaning project that turns a messy subscription export into an analysis-ready table using Google BigQuery SQL. The pipeline standardizes text fields, parses mixed date formats, removes duplicates and test accounts, fixes price errors, and flags remaining quality issues instead of silently dropping them.
 
