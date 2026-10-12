@@ -1,0 +1,163 @@
+subscription_id,customer_id,customer_email,country,plan,monthly_price,status,start_date,end_date,payment_method,updated_at,internal_notes
+SUB-1001,CUST-8067,amy.taylor5@example.com,United Kingdom,Basic,0.00, active ,24/01/2026,,direct_debit,2026-02-26 18:19:43,
+SUB-1002,CUST-7745,liam.rossi.example.com,Germany,Free,0.00, cancelled ,2025-07-28,2025-12-06,card,2026-03-01 14:39:19,
+SUB-1003,CUST-8254,chloe.rossi@example.com,UK,premium,1999.00,active,2024-06-08,,card,2024-10-30 01:48:56,
+SUB-1004,CUST-5100,jack.hughes@example.com,ITALY,Premium,19.99,Cancelled,2025-07-03,2025-10-04,card,2026-01-25 20:37:10,
+SUB-1005,CUST-2653,leo.hughes@example.com,Germany,Premium,19.99,ACTIVE,2024-08-21,,direct_debit,2026-06-25 00:25:34,requested invoice
+SUB-1006,CUST-6990,SARA.HUGHES@EXAMPLE.COM,IE,Basic,9.99,Canceled,2025-12-19,2026-09-25,paypal,2026-09-26 14:53:41,
+SUB-1007,CUST-8904,luca.fischer.example.com,Germany,Premium,19.99,Cancelled,2025-07-24,2025-12-13,paypal,2026-01-03 17:22:46,migrated from legacy billing
+SUB-1008,CUST-4577,hugo.wagner@example.com,Italy,FREE,0.00,paused,03/08/2025,,card,2026-08-25 18:20:42,
+SUB-1009,CUST-5509, max.fischer@example.com,Germany,Free,0.00,cancelled,2025-07-05,2025-12-16,direct_debit,2026-05-20 02:40:57,
+SUB-1010,CUST-7574,emma.greco@example.com,United Kingdom,Premium,19.99, cancelled ,2024-06-05,2025-05-22,card,2025-07-10 08:14:32,
+SUB-1011,CUST-7584,leo.fischer@example.com,Germany,Premium,19.99,canceled,2024-01-12,,direct_debit,2026-08-30 05:22:36,
+SUB-1012,CUST-4157,amy.wagner@example.com,Italy,Basic,9.99,active,2026-01-09,,,2026-03-19 09:09:22,
+SUB-1013,CUST-9811,noah.kelly83@example.com,United Kingdom,BASIC,9.99,active,2026-02-19,,NULL,2026-09-12 23:15:16,
+SUB-1014,CUST-3961,leo.wagner@example.com,Germany,FREE,0.00,active,2026-05-01,,N/A,2026-08-19 04:04:29,
+SUB-1015,CUST-3352,sofia.clarke10@example.com,Italy,Premium,19.99, active ,2025-05-01,,card,2026-08-15 03:43:48,
+SUB-1016,CUST-5588,mia.doyle98@example.com,IE,Premium,19.99,Canceled,2025-02-12,2026-02-20,direct_debit,2026-08-14 08:09:21,VIP
+SUB-1017,CUST-7169, sofia.wagner4@example.com,United Kingdom,Basic,9.99,active,2024-01-08,,card,2024-04-21 16:51:58,
+SUB-1125,CUST-8180,mia.walsh@example.com,ireland,Premium,19.99,active,2024-06-30,,card,2024-06-30 19:00:00,
+SUB-1018,CUST-9663,KARL.WAGNER11@EXAMPLE.COM,United Kingdom,Free,0.00,cancelled,2024-08-07,2025-06-09,direct_debit,2026-08-30 13:21:49,
+SUB-1019,CUST-9076,hugo.clarke@example.com,United Kingdom,Free,0.00,cancelled,2024-12-28,2025-08-31,paypal,2025-11-15 10:38:31,support ticket open
+SUB-1020,CUST-5789, nina.taylor@example.com,UK,FREE,0.00,Active,08/03/2025,,card,2025-05-05 13:16:34,
+SUB-1021,CUST-9588,karl.doyle@example.com,IT,Premium,19.99, active ,16/01/2024,,paypal,2025-01-17 04:51:58,call back re refund
+SUB-1022,CUST-8423,FINN.BECKER@EXAMPLE.COM,United Kingdom,free,0.00,active,2025-02-03,,paypal,2025-09-12 13:25:51,
+SUB-1023,CUST-6744,dario.doyle86@example.com,Italy,BASIC,9.99,active,10/08/2024,,,2024-11-12 16:39:46,
+SUB-1024,CUST-2656,liam.murphy@example.com,Italy, Basic,9.99,cancelled,2024-06-10,2024-08-08,direct_debit,2024-11-22 10:39:37,
+SUB-1018,CUST-9663,karl.wagner11@example.com,United Kingdom,Free,0.00,active,2024-08-07,,direct_debit,2024-08-07 12:00:00,
+SUB-1025,CUST-7073,ben.evans@example.com,Ireland,Premium,-19.99,active,2025-08-15,,card,2026-09-25 01:22:34,
+SUB-1026,CUST-4457, chloe.becker87@example.com,Germany,Basic,0.00,active,2024-05-14,,card,2024-09-03 16:36:12,promo SUMMER25
+SUB-1027,CUST-2563,ines.taylor11@example.com,U.K.,Free,0.00,ACTIVE,2026-08-13,,direct_debit,2026-08-30 22:31:48,
+SUB-1028,CUST-7471,sara.doyle@example.com,ireland,Basic,9.99,Paused,2062-10-31,,paypal,2026-02-24 06:24:43,
+SUB-1029,CUST-3725,noah.bianchi@example.com,United Kingdom,Premium,19.99,cancelled,2024-06-08,2024-05-29,paypal,2025-05-01 03:19:44,
+SUB-1030,CUST-5469,,United Kingdom,Basic,9.99,PAUSED,2024-02-22,,paypal,2024-04-30 11:40:25,VIP
+SUB-1031,CUST-9741, amy.ferrari22@example.com,United Kingdom,basic,9.99,Canceled,2025-07-28,2025-08-31,direct_debit,2025-12-24 18:34:23,
+SUB-1032,CUST-9643,iris.hughes76@example.com,U.K.,Free,0.00,Active,2024-11-11,,paypal,2026-09-10 12:39:32,requested invoice
+SUB-1033,CUST-7084,mia.evans@example.com,United Kingdom,Basic,9.99,active,2026-06-14,2026-09-18,paypal,2026-07-29 23:16:33,
+SUB-1034,CUST-8571,hugo.walsh@example.com,Italy,Free,0.00,paused,2026-03-12,,N/A,2026-06-16 09:05:10,
+SUB-1035,CUST-4864,,IT,Premium,19.99,Active,2026-04-16,,card,2026-09-17 10:34:43,
+SUB-1036,CUST-4286,oscar.rossi@example.com,Italy,basic,9.99,Active,2024-03-12,,card,2026-05-12 08:01:12,
+SUB-1037,CUST-4174,iris.doyle@example.com,Ireland,Free,0.00, paused ,2062-07-01,,card,2026-05-07 01:42:40,
+SUB-1038,CUST-4086,hugo.wagner57@example.com,Ireland,premium,1999.00,active,2026-07-10,,card,2026-08-21 08:05:15,promo SUMMER25
+SUB-1039,CUST-8946,ben.becker.example.com,U.K.,Free,0.00,Canceled,2024-12-04,2025-11-18,card,2026-03-14 15:12:23,
+SUB-1040,CUST-9703,BEN.BYRNE@EXAMPLE.COM,United Kingdom,Premium,19.99,Active,2024-07-15,,NULL,2025-04-11 08:12:34,
+SUB-1041,CUST-7363,marco.romano@example.com,IE,Basic,9.99, active ,2026-03-15,,card,2026-09-02 13:44:38,
+SUB-1042,CUST-7072,mia.greco62@example.com,DE,FREE,0.00,active,11/06/2025,2025-08-22,card,2025-12-10 10:16:04,
+SUB-1043,CUST-2596,oscar.becker@example.com,Germany,free,0.00,paused,2025-09-17,,card,2026-08-27 03:23:40,
+SUB-1044,CUST-3792, mia.romano@example.com,DE,Free,0.00,Canceled,2024-01-06,2023-12-02,card,2026-06-12 14:51:52,
+SUB-1045,CUST-6877,paul.evans@example.com,ITALY,Free,0.00,Active,2025-06-27,,NULL,2026-06-05 18:09:59,
+SUB-1046,CUST-4123,dario.greco56@example.com,Ireland,BASIC,9.99,active,2026-06-01,,paypal,2026-07-24 20:21:52,
+SUB-1047,CUST-4751,julia.clarke@example.com,United Kingdom,basic,9.99,ACTIVE,2024-10-19,,card,2025-12-12 13:10:02,VIP
+SUB-1048,CUST-5816,oscar.romano@example.com,U.K.,premium,19.99, active ,2025-02-21,,card,2025-07-31 15:40:20,
+SUB-1049,CUST-4881,elena.weber@example.com,U.K.,Premium,-19.99,CANCELLED,2025-01-24,2025-10-25,card,2026-03-25 10:56:20,
+SUB-1050,CUST-4235,iris.byrne70@example.com,ireland, Premium,19.99, cancelled ,08/07/2026,2026-09-25,card,2026-09-25 02:06:48,
+SUB-1051,CUST-9429,ben.romano@example.com,ireland,Premium,19.99,paused,2025-09-29,,card,2026-05-06 04:30:52,
+SUB-1052,CUST-4677,sofia.byrne@example.com,U.K.,Free,0.00,active,2024-12-01,,card,2025-09-21 11:25:29,
+SUB-1024,CUST-2656,liam.murphy@example.com,Italy, Basic,9.99,cancelled,2024-06-10,2024-08-08,direct_debit,2024-11-22 10:39:37,
+SUB-1053,CUST-2562,iris.byrne@example.com,uk,Basic,9.99,canceled,2024-02-23,2024-02-17,paypal,2026-02-07 05:35:14,migrated from legacy billing
+SUB-1054,CUST-9764,oscar.becker4@example.com,United Kingdom,Free,0.00,active,2025-11-16,,,2026-08-14 15:29:09,
+SUB-1055,CUST-2885,jack.walsh79@example.com,Italy,premium,19.99,Cancelled,2026-03-07,,card,2026-09-26 04:27:50,
+SUB-1056,CUST-2834,ben.romano52@example.com,ireland,Free,0.00,active,2026-04-30,,paypal,2026-06-27 13:28:37,
+SUB-1057,CUST-7304,leo.taylor@example.com,United Kingdom,Basic,9.99,active,2025-01-14,,card,2025-12-06 06:27:44,
+SUB-1058,CUST-8011,noah.byrne48@example.com,United Kingdom,Premium,19.99,Active,2024-06-05,,card,2025-07-29 13:24:05,
+SUB-1059,CUST-8805,max.doyle@example.com,Italy,basic,9.99,cancelled,2024-10-01,2024-09-19,direct_debit,2025-11-16 15:35:57,
+SUB-1060,CUST-3489,oscar.fischer74@example.com,IT, Premium,-19.99,Active,2025-05-21,,card,2026-02-20 14:25:00,
+SUB-1061,CUST-2701,nina.ferrari78@example.com,ITALY,Premium,19.99,active,2025-06-13,2025-11-10,card,2026-04-24 16:22:09,
+SUB-1062,CUST-4410,ella.evans@example.com,uk,Basic  ,0.00,active,2026-03-22,,card,2026-08-03 07:57:42,support ticket open
+SUB-1063,CUST-4882,test+03@example.com,IE,PREMIUM,19.99,ACTIVE,2026-02-02,,paypal,2026-05-18 05:07:26,TEST ACCOUNT
+SUB-1064,CUST-3772,oscar.taylor@example.com,United Kingdom,Basic,9.99,Cancelled,2026-02-19,2026-09-25,paypal,2026-09-25 20:08:02,
+SUB-1065,CUST-4476, ella.greco@example.com,UK, Premium,19.99,canceled,2024-10-30,,card,2026-05-13 20:59:59,migrated from legacy billing
+SUB-1066,CUST-2100,liam.doyle39@example.com,uk,Premium,19.99,canceled,2026-02-09,2026-09-25,card,2026-09-26 10:10:49,
+SUB-1067,CUST-6028,nina.walsh@example.com,United Kingdom,Premium,19.99,active,,,card,2026-08-21 05:25:46,
+SUB-1068,CUST-6966,emma.bianchi@example.com,DE,Free,0.00,Active,25/07/2025,,card,2026-01-16 07:06:47,
+SUB-1069,CUST-2493,ELENA.FISCHER@EXAMPLE.COM,Ireland,Premium,19.99,paused,2024-11-08,,paypal,2026-06-05 20:15:52,VIP
+SUB-1070,CUST-2021,test+06@example.com,United Kingdom,premium,19.99,active,2025-07-19,,card,2026-07-18 23:48:12,
+SUB-1071,CUST-4167,oscar.kelly@example.com,United Kingdom,Premium  ,19.99,active,04/12/2025,2026-02-28,paypal,2026-08-03 17:57:46,
+SUB-1072,CUST-2584,hugo.becker@example.com,germany,basic,-9.99,Cancelled,2026-07-19,2026-09-25,card,2026-09-27 09:43:02,
+SUB-1073,CUST-6099,DARIO.WEBER@EXAMPLE.COM,Italy,Free,0.00,CANCELLED,2025-12-17,2026-08-10,card,2026-09-21 12:03:07,migrated from legacy billing
+SUB-1074,CUST-8848, lena.byrne@example.com,ITALY,BASIC,9.99,active,2024-08-22,,direct_debit,2025-11-21 00:45:52,
+SUB-1075,CUST-9504,,germany,Premium,19.99,active,2025-06-15,,card,2026-09-12 15:20:06,
+SUB-1076,CUST-3317,iris.clarke@example.com,United Kingdom,BASIC,9.99, active ,2025-11-17,,card,2026-08-13 09:30:26,
+SUB-1077,CUST-9947,ben.romano99.example.com,United Kingdom,Free,0.00,active,15/09/2024,,paypal,2026-07-18 19:06:06,
+SUB-1078,CUST-7123,ANNA.DOYLE@EXAMPLE.COM,DE,Free,0.00,ACTIVE,2025-09-29,,card,2025-10-19 01:03:23,promo SUMMER25
+SUB-1079,CUST-3960,emma.kelly58@example.com,ireland,basic,9.99, active ,07/10/2025,,paypal,2026-02-04 16:24:04,
+SUB-1050,CUST-4235,iris.byrne70@example.com,Ireland,Premium  ,19.99,active,2026-07-08,,card,2026-07-08 13:00:00,
+SUB-1080,CUST-7306,,IT,Premium,19.99,paused,2025-04-17,,paypal,2026-05-09 02:23:33,
+SUB-1081,CUST-6515,marco.greco@example.com,United Kingdom,Basic,9.99,active,2025-04-28,,NULL,2025-09-23 01:14:05,
+SUB-1082,CUST-2021,julia.bianchi@example.com,United Kingdom,PREMIUM,19.99,Canceled,2024-12-14,2025-09-29,card,2026-01-22 22:44:31,
+SUB-1083,CUST-5090,ines.clarke@example.com,germany,Basic,9.99,Active,2025-07-19,,card,2026-03-25 22:21:52,
+SUB-1084,CUST-7777,clara.evans@example.com,Germany,Free  ,0.00,cancelled,2024-02-14,2024-08-24,direct_debit,2025-06-16 02:39:49,
+SUB-1085,CUST-9161,ben.bianchi@example.com,Italy,Free,0.00,Paused,2024-12-05,,paypal,2025-02-20 10:45:38,
+SUB-1086,CUST-9939,sara.rossi@example.com,IE,Basic,9.99,cancelled,2024-06-07,2024-08-14,card,2025-12-11 02:23:50,
+SUB-1087,CUST-9269,amy.schmidt44@example.com,Ireland,premium,19.99,active,2024-11-20,,paypal,2026-01-14 05:16:10,migrated from legacy billing
+SUB-1016,CUST-5588,mia.doyle98@example.com,IE,Premium,19.99,Canceled,2025-02-12,2026-02-20,direct_debit,2026-08-14 08:09:21,VIP
+SUB-1119,CUST-9744,BEN.KELLY@EXAMPLE.COM,U.K.,basic,9.99,active,2024-01-08,,card,2024-08-08 04:29:03,
+SUB-1088,CUST-9148,,ireland,Free,0.00,paused,17/02/2026,,card,2026-04-22 14:37:55,
+SUB-1089,CUST-4000,test+01@example.com,United Kingdom,Premium,19.99,active,2025-01-18,,card,2026-04-02 13:39:49,TEST ACCOUNT
+SUB-1090,CUST-9477,luca.walsh@example.com,United Kingdom,Basic,9.99,active,30/11/2025,,card,2026-02-28 04:09:11,
+SUB-1091,CUST-3294,chloe.fischer34@example.com,Germany,Free,0.00,cancelled,11/07/2026,,card,2026-09-27 20:49:47,
+SUB-1092,CUST-5151,INES.KELLY@EXAMPLE.COM,United Kingdom,Premium,19.99,Active,,,direct_debit,2025-01-26 20:09:39,promo SUMMER25
+SUB-1093,CUST-2066,jack.weber39@example.com,UK,BASIC,9.99,Paused,2025-11-05,,card,2026-07-29 08:06:52,
+SUB-1094,CUST-6973,liam.wood@example.com,germany, Premium,19.99,paused,2026-03-05,,paypal,2026-05-29 01:16:12,
+SUB-1095,CUST-7140,leo.ferrari88@example.com,uk,premium,19.99,Cancelled,2024-05-20,2025-05-06,paypal,2025-12-31 22:55:34,
+SUB-1096,CUST-3438,liam.weber48@example.com,Germany,free,0.00,paused,2024-11-30,,card,2026-08-02 21:39:41,
+SUB-1097,CUST-9924,jack.greco@example.com,Italy,Premium,19.99,Active,2026-04-24,,,2026-09-15 23:13:07,
+SUB-1098,CUST-4996,test+02@example.com,DE,Premium,19.99,ACTIVE,2026-05-16,,card,2026-07-31 14:51:02,
+SUB-1099,CUST-9702,NOAH.FISCHER49@EXAMPLE.COM,Germany,Premium,19.99,active,2025-01-25,,card,2026-07-03 03:51:54,migrated from legacy billing
+SUB-1100,CUST-7743,leo.doyle43@example.com,IE,free,0.00,active,2026-04-23,,card,2026-07-11 06:47:47,migrated from legacy billing
+SUB-1101,CUST-7492,liam.kelly@example.com,Ireland,Free,0.00,canceled,2024-05-18,2025-01-01,direct_debit,2026-06-25 23:24:09,
+SUB-1102,CUST-7043,tom.weber97@example.com,Germany,free,0.00,Active,2024-04-11,,card,2025-06-19 13:28:06,requested invoice
+SUB-1103,CUST-9386,mia.fischer@example.com,United Kingdom,premium,19.99,active,03/12/2025,,direct_debit,2026-04-21 07:04:57,requested invoice
+SUB-1104,CUST-4732,mia.taylor@example.com,U.K.,premium,19.99,cancelled,2025-09-03,2025-10-13,NULL,2025-11-30 21:41:44,
+SUB-1105,CUST-8343,mia.schmidt99@example.com,uk,Free,0.00,active,,,card,2026-06-09 13:12:52,
+SUB-1106,CUST-3949,hugo.walsh16@example.com,Germany,premium,19.99,Active,2025-01-01,,,2025-01-13 06:10:50,migrated from legacy billing
+SUB-1107,CUST-6863,emma.byrne@example.com,United Kingdom,premium,19.99,active,2026-03-07,,card,2026-09-18 16:07:01,promo SUMMER25
+SUB-1108,CUST-5492,liam.greco@example.com,Germany,basic,-9.99,Active,05/05/2025,,paypal,2026-05-20 19:16:25,
+SUB-1132,CUST-7374,karl.wood@example.com,UK,Free,0.00,active,2026-07-27,,paypal,2026-07-27 10:00:00,support ticket open
+SUB-1109,CUST-6795,sara.schmidt@example.com,Ireland,Basic,9.99,active,2024-10-08,,card,2025-06-17 13:53:45,
+SUB-1110,CUST-8986,leo.greco@example.com,DE,Basic,9.99,ACTIVE,2026-03-23,,paypal,2026-09-09 10:24:26,
+SUB-1073,CUST-6099,dario.weber@example.com,IT,Free,0.00,active,17/12/2025,,card,2025-12-17 10:00:00,migrated from legacy billing
+SUB-1111,CUST-5407,dario.becker@example.com,Ireland,Premium,19.99,active,2026-04-27,,paypal,2026-06-26 16:34:51,
+SUB-1112,CUST-2763,ben.ferrari@example.com,Germany,PREMIUM,19.99,active,2024-04-03,,card,2025-11-02 21:16:54,
+SUB-1113,CUST-9709,paul.murphy77@example.com,Italy,Basic,999.00, cancelled ,2025-02-24,2025-09-23,paypal,2026-08-26 03:12:18,
+SUB-1114,CUST-6556,JACK.TAYLOR75@EXAMPLE.COM,uk,free,0.00,CANCELLED,2024-08-17,2024-11-10,card,2026-06-25 07:59:57,
+SUB-1115,CUST-8794,OSCAR.BYRNE73@EXAMPLE.COM,IT,Basic,9.99,canceled,2024-01-27,2025-01-02,paypal,2025-01-24 11:43:35,support ticket open
+SUB-1064,CUST-3772,oscar.taylor@example.com,United Kingdom,Basic,9.99,Cancelled,2026-02-19,2026-09-25,paypal,2026-09-25 20:08:02,
+SUB-1116,CUST-3162,ella.kelly@example.com,U.K.,free,0.00,cancelled,2025-08-02,2025-06-27,paypal,2026-08-05 23:26:10,promo SUMMER25
+SUB-1117,CUST-2407,dario.wagner74@example.com,germany, Free,0.00,active,2024-06-10,,paypal,2025-08-06 16:43:45,
+SUB-1041,CUST-7363,marco.romano@example.com,IE,Basic,9.99, active ,2026-03-15,,card,2026-09-02 13:44:38,
+SUB-1118,CUST-5521,tom.clarke@example.com,UK,Basic,9.99, active ,2025-06-08,,card,2026-09-11 16:49:25,
+SUB-1119,CUST-9744,BEN.KELLY@EXAMPLE.COM,U.K.,basic,9.99,active,2024-01-08,,card,2024-08-08 04:29:03,
+SUB-1120,CUST-7764,marco.wagner@example.com,uk,Basic,9.99,ACTIVE,2024-05-12,2024-11-09,card,2026-09-26 22:43:27,
+SUB-1032,CUST-9643,iris.hughes76@example.com,U.K.,Free,0.00,Active,2024-11-11,,paypal,2026-09-10 12:39:32,requested invoice
+SUB-1121,CUST-2637,test+04@example.com,ireland,Premium,19.99,Active,2024-01-20,,direct_debit,2026-07-02 09:51:26,
+SUB-1122,CUST-7063,elena.byrne@example.com,DE,Basic,9.99,paused,2024-06-24,,,2026-01-07 02:50:46,migrated from legacy billing
+SUB-1123,CUST-3815,OSCAR.BYRNE@EXAMPLE.COM,Germany,Basic,9.99,Active,2024-11-13,,card,2025-03-23 14:13:15,support ticket open
+SUB-1124,CUST-7287,noah.greco@example.com,IT,Premium,19.99,Active,2026-01-14,2026-03-28,paypal,2026-04-15 18:11:07,requested invoice
+SUB-1125,CUST-8180,mia.walsh@example.com,ireland,Premium,19.99,Cancelled,2024-06-30,2025-06-16,card,2026-09-09 02:04:05,
+SUB-1126,CUST-5602,max.weber84@example.com,United Kingdom,Premium,19.99,active,2025-10-04,,,2026-03-24 17:40:40,
+SUB-1127,CUST-2466,HUGO.FERRARI@EXAMPLE.COM,Ireland,BASIC,9.99,active,2025-04-17,,card,2025-11-25 23:30:13,migrated from legacy billing
+SUB-1128,CUST-2336,leo.wood@example.com,Germany,Basic,9.99,Active,2026-03-21,,card,2026-08-25 06:00:56,
+SUB-1129,CUST-9365,mia.wagner@example.com,United Kingdom,Basic,9.99, paused ,06/04/2025,,N/A,2025-06-10 12:00:32,
+SUB-1130,CUST-4981,luca.murphy33@example.com,IE,Basic,9.99,active,19/06/2025,,,2026-01-24 17:31:06,
+SUB-1015,CUST-3352,sofia.clarke10@example.com,Italy,Premium,19.99, active ,2025-05-01,,card,2026-08-15 03:43:48,
+SUB-1131,CUST-6570,ella.wagner88@example.com,UK,Free,0.00,Cancelled,2024-12-08,2025-02-09,N/A,2025-09-17 16:53:00,
+SUB-1132,CUST-7374,karl.wood@example.com,uk,Free,0.00,cancelled,2026-07-27,2026-09-25,paypal,2026-09-26 04:32:29,support ticket open
+SUB-1133,CUST-8790,sofia.kelly@example.com,Germany,Basic  ,9.99,active,10/05/2024,,direct_debit,2026-08-05 17:21:58,support ticket open
+SUB-1134,CUST-8276,tom.greco@example.com,United Kingdom,Basic,0.00,active,2024-08-07,,card,2025-07-24 22:08:12,
+SUB-1135,CUST-2309,emma.schmidt@example.com,Italy,Basic,0.00,Active,2026-01-26,,paypal,2026-09-23 00:28:14,call back re refund
+SUB-1136,CUST-5365, emma.walsh25@example.com,United Kingdom,Premium,19.99,Cancelled,18/06/2024,2025-07-22,card,2026-01-22 11:53:01,
+SUB-1137,CUST-8624,leo.kelly98@example.com,United Kingdom,Premium,1999.00,ACTIVE,2024-09-01,,paypal,2026-08-04 03:18:10,
+SUB-1138,CUST-3327,jack.weber@example.com,UK,Premium,19.99,CANCELLED,2025-05-29,2026-03-25,paypal,2026-08-27 14:08:19,
+SUB-1139,CUST-8929,karl.ferrari8@example.com,United Kingdom,basic,9.99,Active,2026-08-14,,card,2026-08-20 01:15:36,
+SUB-1140,CUST-9458,ella.walsh@example.com,UK,Premium,19.99,Active,2025-03-23,,card,2026-03-08 09:38:06,
+SUB-1141,CUST-5071,max.rossi@example.com,ITALY,Basic,9.99,active,2025-01-30,,card,2025-10-04 12:42:59,
+SUB-1142,CUST-3136,iris.wagner@example.com,Germany,Free,0.00, paused ,28/04/2025,,paypal,2026-04-27 08:50:47,
+SUB-1143,CUST-5467,anna.schmidt@example.com,Ireland,free,0.00, active ,2026-01-14,,card,2026-05-05 21:18:04,migrated from legacy billing
+SUB-1144,CUST-6094,liam.evans55@example.com,germany,Premium,19.99,ACTIVE,23/04/2024,,card,2024-05-18 12:45:15,
+SUB-1145,CUST-5412,test+05@example.com,United Kingdom,Premium,19.99,active,2024-12-27,,card,2026-05-30 00:25:43,TEST ACCOUNT
+SUB-1146,CUST-5851,sofia.greco71@example.com,UK,Premium,0.00,active,2024-01-21,,card,2025-09-12 23:58:51,
+SUB-1147,CUST-4886,JACK.EVANS95@EXAMPLE.COM,United Kingdom, Basic,9.99,CANCELLED,2026-01-22,2026-08-10,card,2026-08-26 23:59:14,
+SUB-1148,CUST-5749,ben.fischer@example.com,DE,basic,9.99,CANCELLED,05/03/2024,,card,2025-09-08 13:55:42,VIP
+SUB-1149,CUST-2299,lena.murphy@example.com,Ireland,Basic,9.99,Paused,2025-07-10,,,2025-12-05 10:25:34,
+SUB-1150,CUST-9328,karl.murphy@example.com,germany,basic,9.99,Cancelled,2025-03-23,2025-11-12,direct_debit,2026-03-23 16:03:01,
